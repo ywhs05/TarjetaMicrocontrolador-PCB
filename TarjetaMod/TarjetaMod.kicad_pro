@@ -1581,7 +1581,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../Imagenes/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../Downloads/TarjetaMod3-1.stl",
