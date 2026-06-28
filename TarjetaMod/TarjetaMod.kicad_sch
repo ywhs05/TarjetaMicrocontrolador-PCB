@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "Tarjeta microcontrolador")
-		(date "2026-03-13")
+		(date "2026-06-28")
 		(rev "v.1")
 		(company "LabCES - UCR")
 	)
@@ -8545,16 +8545,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Agregar los huecos para los trimmers (jumpers del micro)(LISTO)\nPoner en DigiKey, los conectores entre microcontrolador y tarjeta. (LISTO o CASI LISTO)\nVer cómo alimentar el circuito (buscar un LDO? de 1.6 V). (LISTO)\nFaltan capis de acople (SE VAN AGREGANDO CONFORME HAGO LA PCB)\nPosiblemente hay que cambiar la configuración del circuito buffer del EN para que de 0 o 5 V. (LISTO)"
-		(exclude_from_sim no)
-		(at 301.498 206.756 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2824f11e-6ea1-4a5c-b3e9-97e21c31745d")
-	)
 	(text "Configuración Buffer\n"
 		(exclude_from_sim no)
 		(at 215.138 143.51 0)
@@ -8594,6 +8584,16 @@
 			)
 		)
 		(uuid "c343fece-f031-43d4-a676-7bef3ee2622c")
+	)
+	(text "Faltan capacitores de acople,\nse añaden cuando se termine la revisión."
+		(exclude_from_sim no)
+		(at 133.096 387.096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dee823d7-c858-4329-88e7-b40d9bd741e2")
 	)
 	(text_box "Circuito EN"
 		(exclude_from_sim no)
@@ -8657,8 +8657,8 @@
 	)
 	(text_box "TRACO de +15 V y - 15 V\nConvertidor DC/DC"
 		(exclude_from_sim no)
-		(at 481.965 340.995 0)
-		(size 110.49 32.385)
+		(at 360.045 180.975 0)
+		(size 118.745 175.895)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
